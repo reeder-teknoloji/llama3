@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-02-17T13:24:47.994595+00:00",
+  "knowledge_dir": "knowledge",
+  "chunk_size": 220,
+  "overlap": 40,
+  "chunks": [
+    {
+      "chunk_id": "reev_fancy.md:1",
+      "source": "reev_fancy.md",
+      "text": "# Reev Fancy Bilgi Dosyasi Bu dosyayi Reev Fancy ile ilgili resmi bilgilerle doldurun. Ornek basliklar: - Urun tanimi - Teknik ozellikler - Surumler ve paketler - Fiyatlandirma - Kurulum adimlari - Sik sorulan sorular - Garanti ve destek kosullari Not: - Bot sadece bu klasordeki iceriklerden beslenir. - Ne kadar net ve guncel bilgi eklerseniz, cevaplar o kadar iyi olur."
+    }
+  ]
+}

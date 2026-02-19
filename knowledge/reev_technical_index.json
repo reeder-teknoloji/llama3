@@ -1,0 +1,155 @@
+{
+  "created_at": "2026-02-18T00:00:00+00:00",
+  "knowledge_dir": null,
+  "input_files": [
+    "ReeV Fancy Teknik.pdf",
+    "webtekno.com",
+    "technologic.com.tr",
+    "otobanhaber.com.tr",
+    "yuzde100yerli.com"
+  ],
+  "chunk_size": "manual",
+  "overlap": 0,
+  "chunks": [
+    {
+      "chunk_id": "reev-fancy:nedir",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Nedir: Reev Fancy, Reeder Teknoloji tarafından üretilen, şehir içi kısa mesafe ulaşım için tasarlanmış 2 kişilik elektrikli mikro mobilite aracıdır. L6e sınıfında yer alır. 6 kW elektrikli motor, 7.68 kWh LiFePO4 batarya, 100 km menzil, 45 km/s azami hız, 200 litre bagaj, otomatik vites, 4 teker disk fren, LED farlar, 7 inç dijital gösterge, Bluetooth destekli multimedya, geri görüş kamerası ve park sensörü gibi özelliklere sahiptir. Ev tipi 220V priz ile 5 saatte şarj edilir. B1 sınıfı ehliyet (16 yaş üzeri) ile kullanılabilir. Sac kasa ve sertleştirilmiş plastik (dodik) gövde yapısına sahiptir. Sunroof standart olarak gelmektedir. İndirimli fiyatı 445.000 TL'dir. Teslim süresi 20 gündür. Citroen Ami'ye yerli rakip olarak konumlandırılmıştır."
+    },
+    {
+      "chunk_id": "reev-fancy:genel-tanitim",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Genel Tanıtım: Reev Fancy, Reeder Teknoloji'nin ürettiği yüzde yüz elektrikli mikro mobilite aracıdır. L6e sınıfında yer alır. Şehir içi kısa mesafe ulaşım için tasarlanmıştır. 2 kişilik kapasiteye sahiptir. Bagaj hacmi 200 litredir. Azami hızı 45 km/s'dir. Kullanmak için B1 sınıfı ehliyet gereklidir (16 yaş ve üzeri). Araç sıfır karbon emisyonu üretir ve çok sessiz çalışır. Dar sokaklarda ve yoğun trafikte rahatça hareket edebilmek için tasarlanmıştır. 2 adet kapıya sahiptir. Gövdesi sac kasa ve sertleştirilmiş plastik (dodik) malzemeden üretilmiştir."
+    },
+    {
+      "chunk_id": "reev-fancy:uretici",
+      "source": "Web - technologic.com.tr, yuzde100yerli.com",
+      "text": "Reev Fancy Üretici Bilgileri: Reev Fancy, Reeder Teknoloji tarafından üretilmektedir. Reeder'ın Kurucu Ortağı ve CEO'su Uygar Saral'dır. Araç, Samsun Üniversitesi Ballıca Kampüsü'nde bulunan, eski tütün hangarlarından Ar-Ge ve teknoloji üssüne dönüştürülen tesiste üretilmektedir. Nihai yerlilik oranı hedefi yüzde 80'dir. Reeder, akıllı telefonlarıyla tanınan Türk teknoloji firmasıdır ve elektrikli araç pazarına ReeV markasıyla girmiştir. Reeder ayrıca ReeV Aura adlı daha büyük bir elektrikli otomobil de üretmektedir."
+    },
+    {
+      "chunk_id": "reev-fancy:tasarim",
+      "source": "Web - technologic.com.tr",
+      "text": "Reev Fancy Tasarım: Reev Fancy, ödüllü mimar ve multidisipliner tasarımcı Rıfat Baltaoğlu tarafından her detayı titizlikle tasarlanmıştır. Nostaljinin estetik unsurlarını modern tekniklerle harmanlayarak zamansız bir tasarım ortaya konmuştur. Özel üretim jantları, LED mercekli kromaj kaplama farları, parlak ön ve arka far çerçeveleri aracın estetiğini güçlendirmektedir. Dekoratif dodik ve gündüz farı, sinyal, park üçü bir arada özel aydınlatma modülü bulunmaktadır. Kromaj kaplama kapı kolları vardır."
+    },
+    {
+      "chunk_id": "reev-fancy:motor-gucu",
+      "source": "ReeV Fancy Teknik",
+      "text": "Reev Fancy Motor Gücü: Reev Fancy'nin motor gücü 6 kW elektrikli motordur. Elektrikli motor sayesinde sessiz ve güçlü sürüş sağlar. Sıfır karbon emisyonu üretir. Azami hız 45 km/s'dir."
+    },
+    {
+      "chunk_id": "reev-fancy:batarya",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Batarya Bilgileri: Batarya tipi 7.68 kWh LiFePO4 (Lityum Demir Fosfat) bataryadır. Bu batarya teknolojisi uzun ömürlü ve güvenli olmasıyla bilinir. LiFePO4 teknolojisi sayesinde uzun kullanım ömrü sunar."
+    },
+    {
+      "chunk_id": "reev-fancy:menzil",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Menzil: Tek şarjla ortalama 100 km menzil sunar. Menzil; yol durumu, trafik, hava şartları, sürüş şekli, donanımlar, aksesuarlar, araçtaki yük, aracın durumu ve aerodinamik özelliklerini etkileyen diğer faktörlere bağlı olarak değişebilir. Rakip Citroen Ami 75 km menzile sahipken, Reev Fancy 100 km menziliyle bu konuda önde."
+    },
+    {
+      "chunk_id": "reev-fancy:sarj",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Şarj Bilgileri: Şarj süresi 220V ev tipi priz ile 5 saate kadardır. 2.3 kW AC tek fazlı ev tipi prizlerden kolayca şarj edilebilir. Özel şarj istasyonuna gerek yoktur, evdeki normal prizden şarj edilir."
+    },
+    {
+      "chunk_id": "reev-fancy:boyutlar",
+      "source": "Web - otobanhaber.com.tr",
+      "text": "Reev Fancy Boyutlar ve Ağırlık: Uzunluk 2494 mm, Yükseklik 1649 mm, Genişlik 1334 mm, Aks mesafesi 1668 mm. Batarya dahil standart ağırlık 471 kg. Azami yüklü ağırlık 700 kg. Bagaj hacmi (VDA) 200 litre. Kompakt boyutları sayesinde evlerin veya dükkânların önüne dikey olarak bile park etmek mümkündür."
+    },
+    {
+      "chunk_id": "reev-fancy:fiyat",
+      "source": "ReeV Fancy Güncel Fiyat Bilgileri",
+      "text": "Reev Fancy Fiyat Bilgileri: Reev Fancy'nin liste fiyatı 475.000 TL'dir. İndirimli kampanya fiyatı 445.000 TL'dir. Ön siparişe özel olarak peşinat ile başlayan ödeme seçenekleri sunulmaktadır. 12, 24, 36, 48 aylık taksit seçenekleri mevcuttur. İlk 100 araç mavi renkte ön siparişe sunulmuştur. Teslim süresi 20 gündür. Rakip Citroen Ami'nin fiyatı 424.000 TL'dir."
+    },
+    {
+      "chunk_id": "reev-fancy:vites-fren",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Vites ve Fren Sistemi: Vites otomatiktir. Fren sistemi hidrovak desteklidir. Ön fren disk, arka fren disk olmak üzere 4 teker disk frendir. Bu sayede güvenli ve etkili frenleme sağlanır."
+    },
+    {
+      "chunk_id": "reev-fancy:ic-mekan",
+      "source": "Web - technologic.com.tr, otobanhaber.com.tr",
+      "text": "Reev Fancy İç Mekan ve Konfor: Beyaz suni deri kaplamalı ayarlanabilir sürücü koltuğu bulunmaktadır. 2+1 bölmeli renkli ön panel bardaklık ve iki adet saklama cebi işlevsellik sağlar. Geri görüş kamerası, aydınlatma özellikli sunroof, ses ve ısı izolasyonu ile donatılmıştır. İç mekan sürüş sırasında güvenli, sessiz ve sofistike bir ortam sunar. Merkezi dokunmatik ekrandan bagaj camı dahil otomatik cam açma-kapama, merkezi kilit kontrolü, dijital termostatlı fan ayarları yapılabilir. Not: Araçta klima bulunmamakta, doğal havalandırma sistemi mevcuttur."
+    },
+    {
+      "chunk_id": "reev-fancy:sogutma",
+      "source": "ReeV Fancy Teknik",
+      "text": "Reev Fancy Soğutma ve Havalandırma: Çift fan soğutma sistemi bulunmaktadır. Dijital termostatlı fan ayarları merkezi ekrandan kontrol edilebilir. Not: Araçta klima yoktur, doğal havalandırma sistemi ve fanlar mevcuttur."
+    },
+    {
+      "chunk_id": "reev-fancy:on-cam",
+      "source": "ReeV Fancy Teknik",
+      "text": "Reev Fancy Ön Cam: Ön cam buğu çözücü özelliğe sahiptir."
+    },
+    {
+      "chunk_id": "reev-fancy:jant-lastik",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Jantlar ve Lastikler: 13 inc ozel tasarim jantlara sahiptir. Lastik boyutu 145/70 R13 olarak belirtilmistir. Ozel uretim jantlari aracin estetigi ile uyumludur."
+    },
+    {
+      "chunk_id": "reev-fancy:sunroof-cam",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Sunroof ve Camlar: Manuel açılır, aydınlatma özellikli sunroof bulunmaktadır. 3 cam otomatik olarak açılıp kapanabilmektedir. Bagaj camı dahil otomatik cam açma-kapama merkezi ekrandan kontrol edilebilir."
+    },
+    {
+      "chunk_id": "reev-fancy:park",
+      "source": "ReeV Fancy Teknik",
+      "text": "Reev Fancy Park Yardımcıları: Geri görüş kamerası ve park sensörü bulunmaktadır. Kompakt boyutları sayesinde dar alanlara kolayca park edilebilir."
+    },
+    {
+      "chunk_id": "reev-fancy:aydinlatma",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Aydınlatma ve Görsel Sistemler: LED mercekli kromaj kaplama farlar kullanılmaktadır. Parlak ön ve arka far çerçeveleri bulunur. Dekoratif dodik ve gündüz farı, sinyal, park üçü bir arada özel aydınlatma modülü vardır. 7 inç dijital gösterge paneli bulunur."
+    },
+    {
+      "chunk_id": "reev-fancy:multimedya",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Multimedya ve Ekran: Merkezi dokunmatik ekran (All-in-One) bulunur. Radyo, MP3 ve video oynatıcı destekler. Bluetooth (BT) bağlantı desteği vardır. USB bağlantısı mevcuttur. Ekran üzerinden merkezi kilit kontrolü, cam kontrolü, fan ayarları yapılabilir."
+    },
+    {
+      "chunk_id": "reev-fancy:avantajlar",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Kullanım Avantajları: Çevre dostu - sıfır emisyon, sessiz sürüş. Ekonomik - yakıt maliyeti yok, düşük bakım. Şehir içi uygunluk - kompakt yapı, kolay park, dar sokaklarda rahat kullanım. Kolay şarj - ev tipi prizle 5 saatte şarj edilebilir, özel istasyon gerektirmez. Fiyat - İndirimli fiyatı 445.000 TL'dir. Daha uzun menzil - 100 km menzille Citroen Ami'nin 75 km menzilinden önde. Kolay kullanım - B1 ehliyet yeterli, 16 yaş üzeri kullanabilir. Hızlı teslimat - 20 gün içinde teslim edilir."
+    },
+    {
+      "chunk_id": "reev-fancy:tirmanma",
+      "source": "ReeV Fancy Teknik",
+      "text": "Reev Fancy Tırmanma Kapasitesi: 30 derece tırmanma kapasitesine sahiptir."
+    },
+    {
+      "chunk_id": "reev-fancy:guvenlik",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Güvenlik Özellikleri: 4 teker disk fren sistemi (ön disk, arka disk). Hidrovak destekli fren. Geri görüş kamerası. Park sensörü. Merkezi kilit sistemi. Ses ve ısı izolasyonu. Sac kasa gövde yapısı dayanıklılık sağlar."
+    },
+    {
+      "chunk_id": "reev-fancy:ehliyet",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Ehliyet Gereksinimleri: Reev Fancy kullanmak için B1 sınıfı ehliyete sahip olmak yeterlidir. B1 ehliyeti 16 yaş ve üzeri kişilerin alabileceği bir ehliyet sınıfıdır. L6e sınıfı araç olması sebebiyle normal B sınıfı ehliyet ile de kullanılabilir."
+    },
+    {
+      "chunk_id": "reev-fancy:rakipler",
+      "source": "Web - webtekno.com, yuzde100yerli.com",
+      "text": "Reev Fancy Rakip Karşılaştırma: Reev Fancy'nin ana rakibi Citroen Ami'dir. Karşılaştırma: Reev Fancy indirimli fiyatı 445.000 TL (liste fiyatı 475.000 TL) iken Citroen Ami 424.000 TL'dir. Reev Fancy menzili 100 km iken Citroen Ami 75 km'dir. Her ikisi de L6e sınıfında mikro elektrikli araçlardır. Reev Fancy daha uzun menziliyle öne çıkarken, fiyatlar benzer seviyededir."
+    },
+    {
+      "chunk_id": "reev-fancy:genel-ozellikler",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Tüm Teknik Özellikler Özeti: Araç Tipi: Elektrikli mikro mobilite aracı (L6e sınıfı). Üretici: Reeder Teknoloji. Motor Gücü: 6 kW elektrikli motor. Batarya: 7.68 kWh LiFePO4. Menzil: 100 km. Şarj Süresi: 5 saat (220V, 2.3kW AC). Azami Hız: 45 km/s. Kapasite: 2 kişilik. Bagaj: 200 litre. Boyutlar: 2494x1334x1649 mm. Ağırlık: 471 kg (700 kg azami yüklü). Vites: Otomatik. Fren: 4 teker disk, hidrovak destekli. Jant: 13 inç özel tasarım. Lastik: 145/70 R13. Sunroof: Manuel, aydınlatmalı. Far: LED mercekli kromaj kaplama. Ekran: Merkezi dokunmatik. Gösterge: 7 inç dijital. Tırmanma: 30 derece. Ehliyet: B1 sınıfı (16+). Gövde: Sac kasa, sertleştirilmiş plastik dodik. Liste Fiyatı: 475.000 TL. İndirimli Fiyat: 445.000 TL. Teslim Süresi: 20 gün. Üretim yeri: Samsun."
+    },
+    {
+      "chunk_id": "reev-fancy:renk",
+      "source": "ReeV Fancy Teknik + Web",
+      "text": "Reev Fancy Renk Secenekleri: Reev Fancy birden fazla renk secenegi ile sunulmaktadir. On siparise ozel olarak ilk 100 arac mavi renkte sunulmustur. Aracin standart renk secenekleri arasinda beyaz, siyah ve mavi yer almaktadir. Ic mekanda beyaz suni deri kaplama kullanilmistir."
+    },
+    {
+      "chunk_id": "reev-fancy:govde-kasa",
+      "source": "ReeV Fancy Teknik",
+      "text": "Reev Fancy Gövde ve Kasa Yapısı: Reev Fancy'nin gövdesi sac kasa malzemeden üretilmiştir. Dodikleri (dış kaplamalar) sertleştirilmiş plastik malzemeden yapılmıştır. Bu yapı hem hafiflik hem dayanıklılık sağlar. Sac kasa ana gövde güvenliği artırırken, plastik dodikler darbelere karşı esneklik sunar ve araç ağırlığını düşük tutar."
+    },
+    {
+      "chunk_id": "reev-fancy:teslim",
+      "source": "ReeV Fancy Güncel Bilgiler",
+      "text": "Reev Fancy Teslim Süresi: Reev Fancy'nin teslim süresi 20 gündür. Sipariş verdikten sonra 20 gün içinde araç teslim edilmektedir."
+    }
+  ]
+}

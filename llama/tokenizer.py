@@ -2,6 +2,7 @@
 # This software may be used and distributed in accordance with the terms of the Llama 3 Community License Agreement.
 
 import os
+import base64
 from logging import getLogger
 from pathlib import Path
 from typing import (
@@ -18,7 +19,6 @@ from typing import (
 )
 
 import tiktoken
-from tiktoken.load import load_tiktoken_bpe
 
 
 logger = getLogger(__name__)
@@ -55,7 +55,9 @@ class Tokenizer:
         """
         assert os.path.isfile(model_path), model_path
 
-        mergeable_ranks = load_tiktoken_bpe(model_path)
+        # On Windows, tiktoken's default loader may fail for local drive paths
+        # via blobfile. Load the BPE file directly from disk.
+        mergeable_ranks = self._load_tiktoken_bpe_local(model_path)
         num_base_tokens = len(mergeable_ranks)
         special_tokens = [
             "<|begin_of_text|>",
@@ -95,6 +97,15 @@ class Tokenizer:
         logger.info(
             f"#words: {self.n_words} - BOS ID: {self.bos_id} - EOS ID: {self.eos_id}"
         )
+
+    @staticmethod
+    def _load_tiktoken_bpe_local(model_path: str) -> Dict[bytes, int]:
+        with open(model_path, "rb") as f:
+            contents = f.read()
+        return {
+            base64.b64decode(token): int(rank)
+            for token, rank in (line.split() for line in contents.splitlines() if line)
+        }
 
     def encode(
         self,

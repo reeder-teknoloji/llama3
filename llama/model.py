@@ -2,18 +2,35 @@
 # This software may be used and distributed in accordance with the terms of the Llama 3 Community License Agreement.
 
 import math
+import os
 from dataclasses import dataclass
 from typing import Optional, Tuple
 
-import fairscale.nn.model_parallel.initialize as fs_init
 import torch
 import torch.nn.functional as F
-from fairscale.nn.model_parallel.layers import (
-    ColumnParallelLinear,
-    RowParallelLinear,
-    VocabParallelEmbedding,
-)
 from torch import nn
+
+# ── Conditional import: fairscale vs local shim ──────────────────
+# On Windows CPU-only builds gloo cannot create transport devices, so
+# torch.distributed.init_process_group is impossible.  For world_size=1
+# we use a lightweight local shim that replaces fairscale's parallel
+# layers with plain nn.Linear / nn.Embedding (behaviour is identical).
+_USE_FAIRSCALE = int(os.environ.get("WORLD_SIZE", "1")) > 1
+
+if _USE_FAIRSCALE:
+    import fairscale.nn.model_parallel.initialize as fs_init
+    from fairscale.nn.model_parallel.layers import (
+        ColumnParallelLinear,
+        RowParallelLinear,
+        VocabParallelEmbedding,
+    )
+else:
+    from llama._fairscale_shim import (
+        ColumnParallelLinear,
+        RowParallelLinear,
+        VocabParallelEmbedding,
+    )
+    import llama._fairscale_shim as fs_init
 
 
 @dataclass
@@ -27,6 +44,7 @@ class ModelArgs:
     ffn_dim_multiplier: Optional[float] = None
     norm_eps: float = 1e-5
     rope_theta: float = 500000
+    use_scaled_rope: bool = False
 
     max_batch_size: int = 32
     max_seq_len: int = 2048
@@ -133,7 +151,7 @@ class Attention(nn.Module):
                 self.n_local_kv_heads,
                 self.head_dim,
             )
-        ).cuda()
+        )
         self.cache_v = torch.zeros(
             (
                 args.max_batch_size,
@@ -141,7 +159,10 @@ class Attention(nn.Module):
                 self.n_local_kv_heads,
                 self.head_dim,
             )
-        ).cuda()
+        )
+        if torch.cuda.is_available():
+            self.cache_k = self.cache_k.cuda()
+            self.cache_v = self.cache_v.cuda()
 
     def forward(
         self,
